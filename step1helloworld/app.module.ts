@@ -1,0 +1,14 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+import { AppComponent } from './app.component';
+import { SecondComp } from './second.component';
+import { ThirdComp } from './third.component';
+
+@NgModule({
+  declarations: [ AppComponent, SecondComp, ThirdComp ],
+  imports: [ BrowserModule, FormsModule ],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
